@@ -32,7 +32,9 @@ Os dados coletados foram dos sites Exati e Bright City que são sistemas de gest
 
 Os dados utilizados nesse trabalho não são sensíveis e estão, de forma indireta, publicas pela prefeitura de Aracaju, com dados de números de ocorrências e atendimentos.
 
-A etapa de Coleta e Carga de dados está presente e documentada no notebook "2. ETL alarmes_aju". Foi criado um cronograma do databricks (job) que executa esse notebook todos os dias, tendo uma média de 200 registros novos na tabela fato.
+A etapa de Coleta e Carga de dados está presente e documentada no notebook "2. ETL alarmes_aju" e a uma imagem da linhagem parcial dos dados .png "MVP-Linhagem-Dados-Parcial.png" está disponível para consulta nesse repositório.
+
+Foi criado um cronograma do databricks (job) que executa esse notebook todos os dias, tendo uma média de 200 registros novos na tabela fato.
 
 # Autoavaliação
 Foi extremamente satisfatório fazer esse MVP.
@@ -43,6 +45,6 @@ Quando comecei a criar o MVP não imaginava o quão podereso seria ter os dados 
 
 Um desses casos foi relacionado a pergunta de número 8. Nós tínhamos uma noção que existiam algumas LCUs que mantiam a luminária LED acesa durante o dia, gerando o alarme "Acesa Durante o Dia", porém, quando realizei a consulta no DW, tive como resposta quase 100 LCUs que tinham esse comportamento em apenas 30 dias de dados coletados. Esse número é muito superior ao que imaginamos inicialmente.
 
-Inclusive, em relação a pergunta de número 8, foi criado um relatório, baseado nos resultados da consulta, que foi enviado à empresa responsável pelo sistema de telegestão, que reconheceu existir algum tipo de anomalia no dispotivo IoT.
+Inclusive, em relação a pergunta de número 8, foi criado um relatório baseado nos resultados da consulta, que foi enviado à empresa responsável pelo sistema de telegestão, que reconheceu existir algum tipo de anomalia no dispotivo IoT.
 
 Finalizando, todos os objetivos foram alcançados e os resultados foram bem melhores do que as expectativas iniciais.
