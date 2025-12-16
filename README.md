@@ -34,6 +34,8 @@ Os dados utilizados nesse trabalho não são sensíveis e estão, de forma indir
 
 A etapa de Coleta e Carga de dados está presente e documentada no notebook "2. ETL alarmes_aju" e a uma imagem da linhagem parcial dos dados .png "MVP-Linhagem-Dados-Parcial.png" está disponível para consulta nesse repositório.
 
+![Linhagem de Dados](./MVP-Linhagem-Dados-Parcial.png)
+
 Foi criado um cronograma do databricks (job) que executa esse notebook todos os dias, tendo uma média de 200 registros novos na tabela fato.
 
 # Autoavaliação
